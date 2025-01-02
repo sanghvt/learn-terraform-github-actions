@@ -11,12 +11,12 @@ terraform {
   }
   required_version = "~> 1.0"
 
-  cloud { 
+  cloud {
     organization = "sang211nt"
-    workspaces { 
-      name = "demo-github-action-terraform" 
-    } 
-  } 
+    workspaces {
+      name = "demo-github-action-terraform"
+    }
+  }
 }
 
 
